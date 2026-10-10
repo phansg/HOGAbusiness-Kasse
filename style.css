@@ -14,3 +14,7 @@ header{flex-wrap:wrap}header img{max-width:190px}#operator{margin-left:auto;font
  .receipt small{color:#000!important;font-size:9px!important}
  @page{size:auto;margin:3mm}
 }
+
+/* V0.2.2: Gruppierte Raumplanwerkzeuge */
+.secondary-actions{display:flex;align-items:center;gap:12px;margin-top:12px;padding-top:14px;border-top:1px solid #e1eae3;flex-wrap:wrap}.secondary-actions label{font-weight:700;margin:0}.secondary-actions select{min-width:220px;flex:1;max-width:360px;background:#f5faf6}.action-handlers{display:none!important}
+#plan-tools{display:flex;flex-wrap:wrap;align-items:stretch;gap:14px;margin:16px 0;padding:16px;background:#f4f8f5;border:1px solid #dce9df;border-radius:14px}.plan-tool-group{display:flex;flex:1 1 270px;flex-direction:column;gap:12px;padding:14px;background:white;border:1px solid #d5e5da;border-radius:12px}.plan-tool-group strong{font-size:14px;color:#17603c}.plan-tool-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px}.plan-tool-row label{margin:0}.plan-tool-row button{padding:10px 12px}.plan-tool-row select{min-width:150px;flex:1}#template{max-width:210px;font-size:13px}#grid-control{margin-left:12px}@media(max-width:700px){.plan-tool-group{flex-basis:100%}}
